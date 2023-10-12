@@ -23,5 +23,10 @@
 # Magneta          35       /e[35m
 # Cyan             36       /e[36m
 
-echo " Print Your Name in Blue colour"
+echo " Print Your Name in MULTI colours"
+echo -e "\e[31m ZEESHAN HYDER \e[o"
+echo -e "\e[32m ZEESHAN HYDER \e[o"
+echo -e "\e[33m ZEESHAN HYDER \e[o"
 echo -e "\e[34m ZEESHAN HYDER \e[o"
+echo -e "\e[35m ZEESHAN HYDER \e[o"
+echo -e "\e[36m ZEESHAN HYDER \e[o"
