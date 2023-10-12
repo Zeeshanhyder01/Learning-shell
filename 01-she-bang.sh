@@ -2,4 +2,5 @@
 
 #sample script
 
-ls -al
+echo " THIS IS A SAMPLE SCRIPT"
+
