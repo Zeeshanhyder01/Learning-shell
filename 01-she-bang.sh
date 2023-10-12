@@ -2,5 +2,5 @@
 
 #sample script
 
-echo " THIS IS A SAMPLE SCRIPT"
+echo " THIS IS A SAMPLE SCRIPT "
 
