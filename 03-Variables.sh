@@ -13,3 +13,9 @@ echo $a
 b=$((3+2))
 
 echo $b
+
+#Command Substitution
+
+DATE=$(date +%F)
+
+echo Hello, Todate Date is $DATE
