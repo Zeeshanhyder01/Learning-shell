@@ -24,7 +24,7 @@
 # Cyan             36       /e[36m
 
 echo " Print Your Name in MULTI colours"
-echo -e "\e[31m ZEESHAN HYDER \e[o"
+echo -e "\e[31m ZEESHAN HYDER \e[om"
 echo -e "\e[32m ZEESHAN HYDER \e[o"
 echo -e "\e[33m ZEESHAN HYDER \e[o"
 echo -e "\e[34m ZEESHAN HYDER \e[o"
