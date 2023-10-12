@@ -4,3 +4,5 @@
 
 echo " THIS IS A SAMPLE SCRIPT "
 
+cat /etc/passwd
+
