@@ -19,3 +19,10 @@ echo $b
 DATE=$(date +%F)
 
 echo Hello, Todate Date is $DATE
+
+# Command Substitution2
+
+PACKAGE=nginx
+echo sudo yum install $PACKAGE -y
+
+
