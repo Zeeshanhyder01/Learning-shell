@@ -6,3 +6,4 @@ echo Second Input = $2
 echo All Inputs = $*
 echo no of inputs =$#
 
+#SPCL
