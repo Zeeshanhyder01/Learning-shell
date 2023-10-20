@@ -3,7 +3,7 @@
 abc() {
   echo LEARNING FUNCTIONS IN SHELL SCRIPTING
   echo a=$a
-  b = 20
+  b=20
 
 }
 #MAin Program
