@@ -7,6 +7,6 @@ abc() {
 
 }
 #MAin Program
-abc
 z=10
+abc
 echo b=$b
