@@ -1,12 +1,25 @@
 #!/usr/bin/env bash
-#ABC FUnction
-abc() {
-  echo LEARNING FUNCTIONS IN SHELL SCRIPTING
-  echo z=$z
-  b=20
+##ABC FUnction
+#abc() {
+#  echo LEARNING FUNCTIONS IN SHELL SCRIPTING
+#  echo a=$a
+#  b=20
+#
+#}
+##MAin Program
+#a=10
+#abc
+#echo b=$b
 
+#Calling one function from another
+number_one () {
+   echo "This is the first function speaking..."
+   number_two
 }
-#MAin Program
-z=10
-abc
-echo b=$b
+
+number_two () {
+   echo "This is now the second function speaking..."
+}
+
+# Calling function one.
+number_one
