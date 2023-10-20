@@ -8,5 +8,5 @@ abc() {
 }
 #MAin Program
 abc
-a=100
+a=10
 echo b=$b
