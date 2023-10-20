@@ -12,14 +12,24 @@
 #echo b=$b
 
 #Function Calling  another function
-number_one () {
-   echo "This is the first function speaking..."
-   number_two
-}
+#number_one () {
+#   echo "This is the first function speaking..."
+#   number_two
+#}
+#
+#number_two () {
+#   echo "This is now the second function speaking..."
+#}
+#
+## Calling function one.
+#number_one
 
-number_two () {
-   echo "This is now the second function speaking..."
+CHECK_STAT(){
+  if [ $1 -ne 0 ] ; then
+    echo -e "\e[31m  FAILED \e[0m"
+    else
+      echo -e "\e[32m SUCCESS \e[0m"
+    exit 2
+  fi
 }
-
-# Calling function one.
-number_one
+CHECK_STAT $?
