@@ -2,11 +2,11 @@
 #ABC FUnction
 abc() {
   echo LEARNING FUNCTIONS IN SHELL SCRIPTING
-  echo a=$a
+  echo z=$z
   b=20
 
 }
 #MAin Program
 abc
-a=10
+z=10
 echo b=$b
