@@ -11,7 +11,7 @@
 #abc
 #echo b=$b
 
-#Calling one function from another
+#Function Calling  another function
 number_one () {
    echo "This is the first function speaking..."
    number_two
