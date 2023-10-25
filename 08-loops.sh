@@ -16,3 +16,7 @@ while [ $i -lt 5 ]; do
 
 done
 
+for fruit in apple banana orange ;do
+  echo fruitname =$fruit
+
+done
